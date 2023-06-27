@@ -1,0 +1,70 @@
+body {
+  color: #4a5560;
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  padding: 120px;
+  color: aliceblue;
+}
+
+.title-grey {
+  background-color: #4a55607c;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: blanchedalmond;
+}
+
+a:hover {
+  background-color: aquamarine;
+  transition: 300ms;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  color: #778491;
+}
